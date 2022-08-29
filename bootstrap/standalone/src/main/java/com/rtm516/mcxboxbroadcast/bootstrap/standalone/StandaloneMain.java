@@ -92,7 +92,6 @@ public class StandaloneMain {
 
                 // Update the session
                 sessionManager.updateSession(sessionInfo);
-                logger.info("Updated session!");
             } catch (SessionUpdateException e) {
                 logger.error("Failed to update session", e);
             }
